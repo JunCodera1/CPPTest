@@ -2,9 +2,11 @@
 
 // Tính fib bằng phương pháp đệ quy
 int fib(int n){
+    //neu so nhap vao <= 1 thi tong fib la chinh so do
     if(n <= 1){
         return n;
     }
+    //Khoi tao de quy
     return fib(n-1) + fib(n-2);
 }
 
